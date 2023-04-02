@@ -1,4 +1,4 @@
 package com.example.bitfit
 
-class Food {
+data class Food(val foodName:String?,val calories:String?):java.io.Serializable {
 }
